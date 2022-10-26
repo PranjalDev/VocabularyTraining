@@ -9,15 +9,15 @@
 import Foundation
 
 class VocabularyDateFormatter {
-	static let dateFormatter: ISO8601DateFormatter = {
-		let formatter = ISO8601DateFormatter()
-		return formatter
-	}()
-
-	static let prettyDateFormatter: DateFormatter = {
-		let formatter = DateFormatter()
-		formatter.dateStyle = .short
-		formatter.timeStyle = .none
-		return formatter
-	}()
+    static let dateFormatter: ISO8601DateFormatter = {
+        let formatter = ISO8601DateFormatter()
+        return formatter
+    }()
+    
+    static let prettyDateFormatter: DateFormatter = {
+        let formatter = DateFormatter()
+        formatter.dateStyle = .short
+        formatter.timeStyle = .none
+        return formatter
+    }()
 }
